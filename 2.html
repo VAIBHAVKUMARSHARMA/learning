@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+li:nth-child(odd) a{
+background-color:red;
+color:yellow;
+
+}
+li:nth-child(2) a{
+background-color:blue;
+color:green;
+
+}
+p::selection{
+color:red;
+background-color:yellow;
+}
+p:hover::before{
+content:"hello";
+color:red;
+background-color:yellow;
+
+}
+</style>
+</head>
+<body>
+<ul class="ul1">
+<li><a href="#">mca</a></li>
+<li><a href="#">bca</a></li>
+<li><a href="#">bsc it</a></li>
+<li><a href="#">bsc cs</a></li>
+</ul>
+<a href="#">This is a link</a>
+<p>he Founder of the Graphic Era Group and 
+the President of Graphic Era (Deemed to be University) ;
+ He is an engineer with Bachelor's and Master's degree 
+in Computer Science and Engineering. He also holds a Ph.D. in Computer Science and Engineering. GEHU is a fructification of his cherished dream. He has a rich teaching experience, and is, inarguably, one of the leading experts in the 
+teaching of Computer Aided Design (CAD) and ‘C’ language in the country.</p>
+
+</body>
+</html>
+
